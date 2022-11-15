@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+}
+h1{
+    width: 350px;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.input-fields{
+    display: flex;
+    gap: 10px;
+}
+
+.input-fields input{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid ;
+    font-size: 18px;
+    text-align: center;
+}
+
+.input-fields input:focus{
+    outline: 0;
+}
+
+form button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: coral;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* new Div */
+
+.calc-response{
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.calc-response div{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #E0E6ED;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+.calc-response h3{
+    text-transform: capitalize;
+}
